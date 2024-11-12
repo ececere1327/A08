@@ -47,14 +47,29 @@ footer {
     padding: 10px;
 }
 
-main::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
 section h2, aside h2 {
     font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+article h3, article h2, section h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+article img {
+    float: right;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+section p, section blockquote, section ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+aside img, aside h3 {
+    margin: 10px 0;
 }
 
 main h3 {
@@ -97,12 +112,6 @@ header h2 {
 
 .shadow {
     text-shadow: 2px 2px var(--global-color-1);
-}
-
-article img {
-    float: right;
-    margin: 10px;
-    border: 1px solid black;
 }
 
 h1 {
