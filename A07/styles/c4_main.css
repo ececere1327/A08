@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
@@ -28,15 +28,20 @@ header {
     background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 40%, white 50%, #f6bb73 60%, #f6bb73 100%);
 }
 
-main h1 {
-    border-top: 3px solid #931420;
-    border-bottom: 3px solid #931420;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px #ccc;
+section {
+    width: 525px;
+    float: right;
+    padding: 0 20px 20px 20px;
+}
+
+aside {
+    width: 215px;
+    float: right;
+    padding: 0 20px 20px 0;
 }
 
 footer {
+    clear: both;
     background-color: #931420;
     color: white;
     padding: 10px;
@@ -48,7 +53,7 @@ main::after {
     clear: both;
 }
 
-main h2 {
+section h2, aside h2 {
     font-size: 1.5em;
 }
 
@@ -78,10 +83,6 @@ footer p {
     text-shadow: 2px 2px #800000;
 }
 
-main {
-    padding: 30px;
-}
-
 blockquote {
     font-style: italic;
 }
@@ -96,4 +97,16 @@ header h2 {
 
 .shadow {
     text-shadow: 2px 2px var(--global-color-1);
+}
+
+article img {
+    float: right;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+h1 {
+    font-size: 150%;
+    padding: 0.5em 0 25em 0;
+    margin: 0;
 }
