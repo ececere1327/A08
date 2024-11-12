@@ -49,12 +49,12 @@ footer {
 
 section h2, aside h2 {
     font-size: 1.5em;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 article h3, article h2, section h1 {
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 article img {
@@ -64,13 +64,12 @@ article img {
 }
 
 section p, section blockquote, section ul {
-    margin-top: 0;
-    margin-bottom: 10px;
+    margin-top: 0; 
+    margin-bottom: 5px;
 }
 
 aside img, aside h3 {
     margin: 10px 0;
-}
 
 main h3 {
     font-size: 1.2em;
@@ -116,6 +115,6 @@ header h2 {
 
 h1 {
     font-size: 150%;
-    padding: 0.5em 0 25em 0;
+    padding: 0.5em 0 1em 0;
     margin: 0;
 }
